@@ -469,22 +469,16 @@
     /* SCROLL INDICATOR */
     .scroll-indicator {
       position: fixed;
-      bottom: 24px;
+      bottom: 32px;
       left: 50%;
       transform: translateX(-50%);
       display: none;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      gap: 10px;
+      justify-content: center;
+      gap: 6px;
       z-index: 10010;
       pointer-events: none;
-      background: rgba(0,0,0,0.26);
-      padding: 14px 24px;
-      border-radius: 999px;
-      backdrop-filter: blur(14px);
-      border: 1px solid rgba(255,255,255,0.14);
-      box-shadow: 0 18px 45px rgba(0,0,0,0.22);
     }
 
     .scroll-indicator.show {
@@ -511,32 +505,37 @@
     }
 
     .scroll-indicator span {
-      font-family: 'Playfair Display';
-      font-size: 0.95rem;
-      letter-spacing: 4px;
+      font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+      font-size: 0.75rem;
+      letter-spacing: 3px;
       text-transform: uppercase;
-      color: rgba(255,255,255,0.95);
-      text-shadow: 0 0 14px rgba(0,0,0,0.35);
+      color: var(--gold);
+      opacity: 0.85;
       animation: gentlePulse 3s ease-in-out infinite;
     }
 
     .scroll-arrow {
-      width: 20px;
-      height: 20px;
-      border-right: 2px solid rgba(255,255,255,0.95);
-      border-bottom: 2px solid rgba(255,255,255,0.95);
+      width: 12px;
+      height: 12px;
+      border-right: 2px solid var(--gold);
+      border-bottom: 2px solid var(--gold);
       transform: rotate(45deg);
-      animation: scrollBounce 1.6s ease-in-out infinite;
+      animation: scrollBounce 2s ease-in-out infinite, arrowGlow 1.5s ease-in-out infinite;
+    }
+
+    @keyframes arrowGlow {
+      0%, 100% { filter: drop-shadow(0 0 2px rgba(184, 134, 69, 0.3)); }
+      50% { filter: drop-shadow(0 0 10px rgba(184, 134, 69, 0.9)); }
     }
 
     @keyframes scrollBounce {
-      0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.45; }
-      50% { transform: rotate(45deg) translateY(6px); opacity: 1; }
+      0%, 100% { margin-top: 0; opacity: 0.5; }
+      50% { margin-top: 4px; opacity: 1; }
     }
 
     @keyframes gentlePulse {
-      0%, 100% { opacity: 0.55; }
-      50% { opacity: 1; }
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 0.9; }
     }
 
     /* FLOATING PETAL CANVAS */
@@ -2066,15 +2065,13 @@
       scrollTrigger: { trigger: ".bottom-date", start: "top 90%", toggleActions: "play none none reverse" }
     });
 
-    // Fade out scroll indicator
+    // Hide scroll indicator only at page bottom
     ScrollTrigger.create({
-      trigger: ".hero",
-      start: "top top",
-      end: "20% top",
-      scrub: true,
-      onUpdate: (self) => {
-        gsap.set("#scroll-hint", { opacity: 1 - self.progress * 3 });
-      }
+      trigger: document.body,
+      start: "bottom bottom+=200",
+      end: "bottom bottom",
+      onEnter: () => { gsap.to("#scroll-hint", { opacity: 0, duration: 0.4 }); },
+      onLeaveBack: () => { gsap.to("#scroll-hint", { opacity: 1, duration: 0.4 }); }
     });
 
     // --- GALLERY: STAGGERED REVEAL + PARALLAX + LIGHTBOX ---
