@@ -1,0 +1,69 @@
+# Query: Daughter of
+# ContextLines: 1
+
+18 results - 5 files
+
+bride-wedding.html:
+  1659              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1660:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Son of</div>
+  1661              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+
+  1664              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1665:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">daughter of</div>
+  1666              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Namita Pattnaik &amp; Mr. Subhash Chandra Dutta</div>
+
+  2489          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
+  2490:         son_of: 'daughter of',
+  2491:         daughter_of: 'Daughter of',
+  2492          groom_parents: 'Dr. Namita Pattnaik & Mr. Subhash Chandra Dutta',
+
+bride.html:
+  1661              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1662:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Son of</div>
+  1663              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+
+  1666              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1667:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">daughter of</div>
+  1668              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Namita Pattnaik &amp; Mr. Subhash Chandra Dutta</div>
+
+  2602          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
+  2603:         son_of: 'daughter of',
+  2604:         daughter_of: 'Daughter of',
+  2605          groom_parents: 'Dr. Namita Pattnaik & Mr. Subhash Chandra Dutta',
+
+hard_invite.html:
+  328      <div class="nickname">(Sipu)</div>
+  329:     <div class="parents">daughter of Smt. Uma Gan &amp; Sri Sanjaya Gan</div>
+  330  
+
+  334      <div class="nickname">(Komal)</div>
+  335:     <div class="parents">Daughter of Smt. Sujaya Chand &amp; Sri Satyaranjan Chand</div>
+  336  
+
+index.html:
+  1617              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1618:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">daughter of</div>
+  1619              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Namita Pattnaik &amp; Mr. Subhash Chandra Dutta</div>
+
+  1622              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1623:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Son of</div>
+  1624              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+
+  2550          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
+  2551:         son_of: 'daughter of',
+  2552:         daughter_of: 'Daughter of',
+  2553          groom_parents: 'Dr. Namita Pattnaik & Mr. Subhash Chandra Dutta',
+
+invite.html:
+  1689        <div class="nickname">(Sipu)</div>
+  1690:       <div class="parent-line" data-i18n="son_of">daughter of <strong>Smt. Uma Gan &amp; Sri Sanjaya Gan</strong></div>
+  1691      </div>
+
+  1697        <div class="nickname">(Komal)</div>
+  1698:       <div class="parent-line" data-i18n="daughter_of">Daughter of <strong>Smt. Sujaya Chand &amp; Sri Satyaranjan Chand</strong></div>
+  1699      </div>
+
+  2349        hero_invite_line: 'cordially invite your presence with family<br>on the auspicious occasion of the wedding of their nephew',
+  2350:       son_of: 'daughter of <strong>Smt. Uma Gan &amp; Sri Sanjaya Gan</strong>',
+  2351:       daughter_of: 'Daughter of <strong>Smt. Sujaya Chand &amp; Sri Satyaranjan Chand</strong>',
+  2352        ceremony_celebration: 'Ceremony &amp; Celebration',
