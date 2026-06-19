@@ -1,0 +1,9 @@
+# Query: the groom's 
+# ContextLines: 1
+
+1 result - 1 file
+
+index.html:
+  1840          <span style="display: block;" data-i18n="compliments_from">Compliments from</span>
+  1841:         <span style="display: block; margin-top: 6px;" data-i18n="compliment_sunny">The Groom's Pillars — <strong style="color: rgba(255,255,255,0.9);">Tushar</strong>,<strong style="color: rgba(255,255,255,0.9);">Omkar</strong>,<strong style="color: rgba(255,255,255,0.9);">Supriya</strong> & <strong style="color: rgba(255,255,255,0.9);">Amiya</strong></span>
+  1842        </div>
