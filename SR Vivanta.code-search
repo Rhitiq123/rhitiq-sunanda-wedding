@@ -1,0 +1,63 @@
+# Query: SR Vivanta
+# ContextLines: 1
+
+14 results - 3 files
+
+bride-wedding.html:
+  2530          evt_reception: 'Reception',
+  2531:         venue_reception: 'SR Vivanta, Berhampur',
+  2532          btn_location: 'Location →',
+
+bride.html:
+  1704            <h3 data-i18n="evt_sangeet">Sangeet</h3>
+  1705:           <p data-i18n="venue_sangeet"> Bijoy Niwas, Berhampur</p>
+  1706          </div>
+
+  1708            <a href="https://maps.app.goo.gl/DdBiZDxruwRd5sRt7" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1709:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Rhitiq & Sunanda Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','SR Vivanta, Berhampur')" data-i18n="btn_save_date">Save Date</a>
+  1710          </div>
+
+  2540        const events = [
+  2541:         { title: 'Sangeet — Rhitiq & Sunanda Wedding', start: '2026-11-24T17:00:00', end: '2026-11-24T19:00:00', loc: 'Bijoy Niwas, Berhampur' },
+  2542          { title: 'Mehendi — Rhitiq & Sunanda Wedding', start: '2026-11-24T19:00:00', end: '2026-11-24T23:59:00', loc: 'Bijoy Niwas, Berhampur' },
+
+  2631          evt_sangeet: 'Sangeet',
+  2632:         venue_sangeet: 'Bijoy Niwas, Berhampur',
+  2633          date_mehendi: '24th November, 7 PM',
+
+  2643          evt_reception: 'Reception',
+  2644:         venue_reception: 'SR Vivanta, Berhampur',
+  2645          btn_location: 'Location →',
+
+index.html:
+  1660            <h3 data-i18n="evt_sangeet">Sangeet</h3>
+  1661:           <p data-i18n="venue_sangeet">Bijoy Niwas, Berhampur</p>
+  1662          </div>
+
+  1664            <a href="https://maps.app.goo.gl/rX2o4i6T4TGrVoAKA" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1665:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Sangeet — Sunanda & Rhitiq Wedding','2026-06-17T18:00:00','2026-06-17T23:59:00','SR Vivanta, Berhampur')" data-i18n="btn_save_date">Save Date</a>
+  1666          </div>
+
+  1737            <h3 data-i18n="evt_reception">Reception</h3>
+  1738:           <p data-i18n="venue_reception">SR Vivanta, Berhampur</p>
+  1739          </div>
+
+  1741            <a href="https://maps.app.goo.gl/DdBiZDxruwRd5sRt7" target="_blank" rel="noopener" class="btn-map" data-i18n="btn_location">Location →</a>
+  1742:           <a href="#" class="btn-map btn-cal" onclick="saveEventDate(event,'Reception — Sunanda & Rhitiq Wedding','2026-06-21T20:00:00','2026-06-21T23:59:00','SR Vivanta, Berhampur')" data-i18n="btn_save_date">Save Date</a>
+  1743          </div>
+
+  2487        const events = [
+  2488:         { title: 'Sangeet — Sunanda & Rhitiq Wedding', start: '2026-11-24T17:00:00', end: '2026-11-24T19:00:00', loc: 'Bijoy Niwas, Berhampur' },
+  2489          { title: 'Mehendi — Sunanda & Rhitiq Wedding', start: '2026-11-24T19:00:00', end: '2026-11-24T23:59:00', loc: 'Bijoy Niwas, Berhampur' },
+
+  2491          { title: 'Wedding — Sunanda & Rhitiq', start: '2026-06-19T20:00:00', end: '2026-06-19T23:59:00', loc: 'The Bhubaneswar Grand' },
+  2492:         { title: 'Reception — Sunanda & Rhitiq Wedding', start: '2026-06-21T20:00:00', end: '2026-06-21T23:59:00', loc: 'SR Vivanta, Berhampur' }
+  2493        ];
+
+  2579          evt_sangeet: 'Sangeet',
+  2580:         venue_sangeet: 'Bijoy Niwas, Berhampur',
+  2581          date_mehendi: '24th November, 7 PM',
+
+  2591          evt_reception: 'Reception',
+  2592:         venue_reception: 'SR Vivanta, Berhampur',
+  2593          btn_location: 'Location →',
