@@ -13,9 +13,9 @@ bride-wedding.html:
   1666              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
 
   2489          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
-  2490:         son_of: 'daughter of',
+  2490:         son_of: 'Son of',
   2491:         daughter_of: 'Daughter of',
-  2492          groom_parents: 'Dr. Namita Pattnaik & Mr. Subhash Chandra Dutta',
+  2492          groom_parents: 'Dr. Puspanjali Pattnaik & Late Bijoy Patnaik',
 
 bride.html:
   1661              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
@@ -41,13 +41,13 @@ hard_invite.html:
   336  
 
 index.html:
-  1617              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
-  1618:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">daughter of</div>
-  1619              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Namita Pattnaik &amp; Mr. Subhash Chandra Dutta</div>
+  1617              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1618:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">Son of</div>
+  1619              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Patnaik</div>
 
-  1622              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1622              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
   1623:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Daughter of</div>
-  1624              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+  1624              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Namita Pattnaik &amp; Shri Subhash Chandra Dutta</div>
 
   2550          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
   2551:         son_of: 'Son of',
