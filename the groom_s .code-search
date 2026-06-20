@@ -4,6 +4,6 @@
 1 result - 1 file
 
 index.html:
-  1840          <span style="display: block;" data-i18n="compliments_from">Compliments from</span>
-  1841:         <span style="display: block; margin-top: 6px;" data-i18n="compliment_sunny">The Groom's Pillars — <strong style="color: rgba(255,255,255,0.9);">Tushar, Omkar, Supriya, Amiya, Ashutosh, Debasis, Gourav, Shaktiman & Aditya</span>
+  1840          <span style="display: block;" data-i18n="compliments_from">Compliments from</p>
+  1841:         <span style="display: block; margin-top: 6px;" data-i18n="compliment_sunny">The Groom's Pillars — <strong style="color: rgba(255,255,255,0.9);">Tushar, Omkar, Supriya, Amiya, Ashutosh, Debasis, Gourav, Shaktiman & Aditya</p>
   1842        </div>
