@@ -1,0 +1,111 @@
+# Query: daughter
+# ContextLines: 1
+
+35 results - 5 files
+
+bride-wedding.html:
+  1659              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1660:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Daughter of</div>
+  1661              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Namita Pattnaik &amp; Shri Subhash Chandra Dutta</div>
+
+  1664              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1665:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">Son of</div>
+  1666              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+
+  2490          son_of: 'Son of',
+  2491:         daughter_of: 'Daughter of',
+  2492          groom_parents: 'Dr. Puspanjali Pattnaik & Late Bijoy Kumar Patnaik',
+
+  2559          son_of: 'पुत्र',
+  2560:         daughter_of: 'पुत्री',
+  2561          groom_parents: 'श्रीमती उमा गण एवं श्री संजय गण',
+
+  2628          son_of: 'পুত্র',
+  2629:         daughter_of: 'কন্যা',
+  2630          groom_parents: 'শ্রীমতী উমা গণ এবং শ্রী সঞ্জয় গণ',
+
+  2697          son_of: 'ପୁତ୍ର',
+  2698:         daughter_of: 'କନ୍ୟା',
+  2699          groom_parents: 'ଶ୍ରୀମତୀ ଉମା ଗଣ ଏବଂ ଶ୍ରୀ ସଞ୍ଜୟ ଗଣ',
+
+bride.html:
+  1661              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1662:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Daughter of</div>
+  1663              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Namita Pattnaik &amp; Shri Subhash Chandra Dutta</div>
+
+  2603          son_of: 'Son of',
+  2604:         daughter_of: 'Daughter of',
+  2605          groom_parents: 'Dr. Puspanjali Pattnaik & Late Bijoy Kumar Patnaik',
+
+  2672          son_of: 'पुत्र',
+  2673:         daughter_of: 'पुत्री',
+  2674          groom_parents: 'श्रीमती उमा गण एवं श्री संजय गण',
+
+  2741          son_of: 'পুত্র',
+  2742:         daughter_of: 'কন্যা',
+  2743          groom_parents: 'শ্রীমতী উমা গণ এবং শ্রী সঞ্জয় গণ',
+
+  2810          son_of: 'ପୁତ୍ର',
+  2811:         daughter_of: 'କନ୍ୟା',
+  2812          groom_parents: 'ଶ୍ରୀମତୀ ଉମା ଗଣ ଏବଂ ଶ୍ରୀ ସଞ୍ଜୟ ଗଣ',
+
+hard_invite.html:
+  328      <div class="nickname">(Lucky)</div>
+  329:     <div class="parents">Son of Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+  330  
+
+  334      <div class="nickname">(Nicky)</div>
+  335:     <div class="parents">Daughter of Dr. Namita Pattnaik &amp; Sri Subhash Chandra Dutta</div>
+  336  
+
+index.html:
+  1617              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Rhitiq</div>
+  1618:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="son_of">Son of</div>
+  1619              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="groom_parents">Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</div>
+
+  1622              <div style="font-family: 'Pinyon Script', cursive; font-size: 2rem; color: var(--gold); margin-bottom: 8px;">Sunanda</div>
+  1623:             <div style="font-size: 0.8rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted);" data-i18n="daughter_of">Daughter of</div>
+  1624              <div style="font-size: 0.95rem; color: var(--text); margin-top: 4px;" data-i18n="bride_parents">Dr. Namita Pattnaik &amp; Shri Subhash Chandra Dutta</div>
+
+  2550          story_p2: 'With the blessings of Lord Jagannath, we invite you to celebrate our union and witness the start of this beautiful chapter.',
+  2551:         son_of: 'Son of',
+  2552:         daughter_of: 'Daughter of',
+  2553          groom_parents: 'Dr. Puspanjali Pattnaik & Late Bijoy Kumar Patnaik',
+
+  2617          son_of: 'पुत्र',
+  2618:         daughter_of: 'पुत्री',
+  2619          groom_parents: 'श्रीमती उमा गण एवं श्री संजय गण',
+
+  2683          son_of: 'পুত্র',
+  2684:         daughter_of: 'কন্যা',
+  2685          groom_parents: 'শ্রীমতী উমা গণ এবং শ্রী সঞ্জয় গণ',
+
+  2749          son_of: 'ପୁତ୍ର',
+  2750:         daughter_of: 'କନ୍ୟା',
+  2751          groom_parents: 'ଶ୍ରୀମତୀ ଉମା ଗଣ ଏବଂ ଶ୍ରୀ ସଞ୍ଜୟ ଗଣ',
+
+invite.html:
+  1689        <div class="nickname">(Lucky)</div>
+  1690:       <div class="parent-line" data-i18n="son_of">son of <strong>Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</strong></div>
+  1691      </div>
+
+  1697        <div class="nickname">(Nicky)</div>
+  1698:       <div class="parent-line" data-i18n="daughter_of">Daughter of <strong>Dr. Namita Pattnaik &amp; Sri Subhash Chandra Dutta</strong></div>
+  1699      </div>
+
+  2349        hero_invite_line: 'cordially invite your presence with family<br>on the auspicious occasion of the wedding of their nephew',
+  2350:       son_of: 'son of <strong>Dr. Puspanjali Pattnaik &amp; Late Bijoy Kumar Patnaik</strong>',
+  2351:       daughter_of: 'Daughter of <strong>Dr. Namita Pattnaik &amp; Sri Subhash Chandra Dutta</strong>',
+  2352        ceremony_celebration: 'Ceremony &amp; Celebration',
+
+  2383        son_of: 'पुत्र — <strong>श्रीमती उमा गण एवं श्री संजय गण</strong>',
+  2384:       daughter_of: 'पुत्री — <strong>श्रीमती सुजया चंद एवं श्री सत्यरंजन चंद</strong>',
+  2385        ceremony_celebration: 'समारोह एवं उत्सव',
+
+  2416        son_of: 'পুত্র — <strong>শ্রীমতী উমা গণ এবং শ্রী সঞ্জয় গণ</strong>',
+  2417:       daughter_of: 'কন্যা — <strong>শ্রীমতী সুজয়া চন্দ এবং শ্রী সত্যরঞ্জন চন্দ</strong>',
+  2418        ceremony_celebration: 'অনুষ্ঠান এবং উদ্‌যাপন',
+
+  2449        son_of: 'ପୁତ୍ର — <strong>ଶ୍ରୀମତୀ ଉମା ଗଣ ଏବଂ ଶ୍ରୀ ସଞ୍ଜୟ ଗଣ</strong>',
+  2450:       daughter_of: 'କନ୍ୟା — <strong>ଶ୍ରୀମତୀ ସୁଜୟା ଚନ୍ଦ ଏବଂ ଶ୍ରୀ ସତ୍ୟରଞ୍ଜନ ଚନ୍ଦ</strong>',
+  2451        ceremony_celebration: 'ଅନୁଷ୍ଠାନ ଏବଂ ଉତ୍ସବ',
